@@ -1,0 +1,9 @@
+é um princípio utilizado na computação que visa a preocupação com cada aspecto, modularizadamente
+
+1 - Reduzir o acoplamento
+2 - Aumentar a coesão
+
+
+Acoplamento : é o nivel de dependencia que pode existir entre os componentes do sistema;
+quando maior o acoplamento entre os componentes do sistema maior será dependencia entre eles, e mais dificil será manter
+reusar e estender o sistema

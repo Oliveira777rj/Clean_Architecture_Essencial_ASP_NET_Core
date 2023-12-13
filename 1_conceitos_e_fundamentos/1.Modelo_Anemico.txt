@@ -1,0 +1,14 @@
+-Contem somente propriedades com get e set públicos
+-Não possuem validações nem comportamentos
+-A logica e manipulação  da classe é colocada em outra classe
+-Não possuem gerenciamento de estado, permitindo que objetos com estado inconsistente sejam criados
+-Permitem que outros objetos criem instancias e modifiquem o dominio
+
+Exemplo:
+
+public class Cliente
+{
+    public int Id { get;set; }
+    public string? Nome { get;set; }
+    public string? Endereco { get;set; }
+}

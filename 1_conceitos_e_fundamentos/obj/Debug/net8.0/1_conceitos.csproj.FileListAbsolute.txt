@@ -1,0 +1,8 @@
+C:\Users\miche\Music\Clean_Architecture_Essencial\1_conceitos_e_fundamentos\1_conceitos\obj\Debug\net8.0\1_conceitos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\Music\Clean_Architecture_Essencial\1_conceitos_e_fundamentos\1_conceitos\obj\Debug\net8.0\1_conceitos.AssemblyInfoInputs.cache
+C:\Users\miche\Music\Clean_Architecture_Essencial\1_conceitos_e_fundamentos\1_conceitos\obj\Debug\net8.0\1_conceitos.AssemblyInfo.cs
+C:\Users\miche\Music\Clean_Architecture_Essencial\1_conceitos_e_fundamentos\1_conceitos\obj\Debug\net8.0\1_conceitos.csproj.CoreCompileInputs.cache
+C:\Users\miche\Music\Clean_Architecture_Essencial\1_conceitos_e_fundamentos\obj\Debug\net8.0\1_conceitos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\Music\Clean_Architecture_Essencial\1_conceitos_e_fundamentos\obj\Debug\net8.0\1_conceitos.AssemblyInfoInputs.cache
+C:\Users\miche\Music\Clean_Architecture_Essencial\1_conceitos_e_fundamentos\obj\Debug\net8.0\1_conceitos.AssemblyInfo.cs
+C:\Users\miche\Music\Clean_Architecture_Essencial\1_conceitos_e_fundamentos\obj\Debug\net8.0\1_conceitos.csproj.CoreCompileInputs.cache
