@@ -7,3 +7,10 @@
 Acoplamento : é o nivel de dependencia que pode existir entre os componentes do sistema;
 quando maior o acoplamento entre os componentes do sistema maior será dependencia entre eles, e mais dificil será manter
 reusar e estender o sistema
+
+VANTAGENS :
+
+1 - Facilita a manutenção
+2 - Melhor reutilização de código
+3 - Melhor clareza de código, é muito mais facil entender o que esta acontecendo no programa quanda cada módulo
+tem uma API concisa e clara com um conjunto de métodos com escopo logico e bem definido 
