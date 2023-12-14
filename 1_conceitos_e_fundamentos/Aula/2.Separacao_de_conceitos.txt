@@ -14,3 +14,5 @@ VANTAGENS :
 2 - Melhor reutilização de código
 3 - Melhor clareza de código, é muito mais facil entender o que esta acontecendo no programa quanda cada módulo
 tem uma API concisa e clara com um conjunto de métodos com escopo logico e bem definido 
+4 - Melhora a testabilidade
+5 - Permite uma evolução mais rapida do projeto

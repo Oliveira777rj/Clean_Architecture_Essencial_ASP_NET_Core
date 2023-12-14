@@ -1,0 +1,7 @@
+O padrão MVC fornece uma maneira de seperar a funcionalidade  e responsabilidade envolvidas com a manutenção e apresentação
+dos dados de uma aplicação usando 3 componentes
+
+Model : Representa os dados a serem tratados a não inclui detalhes da implementação.
+View : Representa o componente da interface com o usuario e esta vinculado ao Model
+Controller : Fornece um mecanismo para o usuario interagir com o sistema definindo como a interface do usuario vai reagir 
+a ação do usuario. É responsavel por trocar a interpretação mensagens entre view e o model

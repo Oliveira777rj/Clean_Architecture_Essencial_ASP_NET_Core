@@ -1,0 +1,17 @@
+Padrão repository : Implementação e tipos de  repositorio
+
+Em uma Implementação padrão podemos começar definindo uma interface que atuara como a nossa fachada de acesso aos dados 
+e a seguir definir a implementação na classe concreta
+
+Vantagens 
+
+Minimiza a logica de consultas na sua aplicação evitando consultas esparramadas pelo seu codigo
+
+Encapsula o logica das consultas em um repositorio
+
+Desacopla a sua aplicação dos frameworks de persistencia como EF core
+
+Facilita a realização de testes de unidade em sua aplicação
+
+Centraliza a logica de acesso a dados facilitando a manutenção
+

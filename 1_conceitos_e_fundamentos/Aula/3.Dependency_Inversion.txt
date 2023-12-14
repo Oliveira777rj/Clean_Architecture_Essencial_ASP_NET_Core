@@ -1,0 +1,14 @@
+Dependency Inversion ou Inversão de dependencia
+
+Modulos de auto nivel são classes da camada de negocio que encapsulam uma logica complexa
+
+
+class RecuperarSenha
+{
+    private MysqlConnection conexaoBanco;
+
+    public RecuperarSenha()
+    {
+        conexaoBanco = new MysqlConnection();
+    }
+}
