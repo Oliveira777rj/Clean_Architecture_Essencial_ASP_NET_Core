@@ -1,0 +1,37 @@
+A arquitetura em camadas, também conhecida como "Arquitetura de Cebola" (Onion Architecture), é um padrão de design que organiza um sistema em camadas concêntricas, onde cada camada tem uma responsabilidade específica. O nome "Cebola" reflete a ideia de ter várias camadas em torno de um núcleo central. Aqui está um resumo das principais características da Arquitetura de Cebola:
+
+Camadas Concêntricas:
+
+As camadas são organizadas de forma concêntrica, com o núcleo representando as funcionalidades mais fundamentais e as camadas externas representando aspectos mais específicos e externos do sistema.
+Inversão de Controle (IoC) e Dependência:
+
+A arquitetura de cebola favorece o princípio de Inversão de Controle (IoC), onde as dependências são injetadas de fora para dentro. Isso promove a modularidade e a facilidade de teste.
+Camada Interna (Core):
+
+O núcleo (core) contém a lógica de negócios central e é independente de qualquer detalhe de infraestrutura ou tecnologia. Ele define interfaces que podem ser implementadas pelas camadas externas.
+Camadas de Serviço (Serviços de Aplicação):
+
+Camadas que envolvem o núcleo e fornecem serviços de aplicação. Elas aplicam a lógica de negócios usando o núcleo e interagem com as camadas externas.
+Camadas de Infraestrutura:
+
+Camadas externas que lidam com detalhes de infraestrutura, como acesso a dados, interfaces de usuário, serviços externos, etc. Essas camadas dependem das camadas internas, mas não o contrário.
+Independência de Tecnologia:
+
+A arquitetura é projetada para permitir que as camadas internas (core) sejam independentes da tecnologia, enquanto as camadas externas lidam com os detalhes tecnológicos específicos.
+Facilidade de Teste e Manutenção:
+
+A separação de preocupações e a inversão de controle facilitam a criação de testes automatizados e a manutenção do código.
+Flexibilidade e Escalabilidade:
+
+A estrutura modular permite a substituição de componentes sem afetar outras partes do sistema. Além disso, a arquitetura é escalável, pois as camadas externas podem ser adicionadas conforme necessário.
+Aderência a Princípios SOLID:
+
+A arquitetura de cebola promove os princípios SOLID, como o Princípio da Responsabilidade Única (SRP) e o Princípio da Inversão de Dependência (DIP).
+
+A Arquitetura de Cebola é particularmente útil em projetos de software onde a manutenção, a testabilidade e a flexibilidade são prioridades. Ela fornece uma estrutura organizada para desenvolver sistemas escaláveis e sustentáveis.
+
+Desvantagens: 
+-Não e facil de entender para iniciantes;
+-Tem uma curva de aprendizado;
+-Pode ser dificil fazer a divisão das responsabilidade entre as camadas;
+-Utiliza interfaces em profusão;

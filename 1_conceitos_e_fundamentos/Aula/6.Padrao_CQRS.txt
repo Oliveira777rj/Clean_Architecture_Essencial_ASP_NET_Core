@@ -1,0 +1,1 @@
+CQRS, que significa Command Query Responsibility Segregation, é um padrão arquitetural que separa as operações de leitura (queries) das operações de escrita (commands) em um sistema. Essa separação é projetada para melhorar a escalabilidade, o desempenho e a manutenção de sistemas complexos.

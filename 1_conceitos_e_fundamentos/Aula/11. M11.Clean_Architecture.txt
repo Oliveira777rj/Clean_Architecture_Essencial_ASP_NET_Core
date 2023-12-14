@@ -1,0 +1,9 @@
+Arquitetura limpa é um conceito proposto como uma forma de construir soluções de software altamente flexiveise sustentaveis
+O conceito é baseado em boas práticas e nas arquitetura hexagonal e cebola, dentre outras, ja propunham a separação das responsabilidade em camadas e tinham como objetivo produzir sistemas com as seguintes caracteristicas:
+
+Indenpendente de framework.
+testaveis.
+Indenpendente de interfaces de usuarios.
+independente do banco de dados.
+Indenpendente de qualquer agente externo.
+

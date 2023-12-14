@@ -1,0 +1,5 @@
+A arquitetura em camadas é um padrão de design comum em que um sistema é dividido em camadas ou níveis lógicos, cada um responsável por funções específicas. Cada camada só se comunica com as camadas adjacentes, promovendo uma separação clara de responsabilidades. Isso facilita a modularidade, a manutenção e a escalabilidade do sistema. 
+
+Vantagens: 
+-Com a organização do codigo em camadas podemos reutilizar a funcionalidade de baixo nivel em todo o aplicativo.
+-Com uma arquitetura em camadas, os aplicativos podem impor restrições sobre quais camadas podem se comunicar com outras camadas.

@@ -1,0 +1,6 @@
+DDD - não é Framework, Libguagem ou Padrão
+
+A principal ideia do DDD é a de que o mais importante em um software não é a seu codigo, nem sua arquitetura, nem a tecnologia sobre
+a qual foi desenvolvido, mas sim o problema que o mesmo se propoe a resolver, ou em outras palavras a REGRA DE NEGOCIO
+
+O DDD é especialmente útil para projetos complexos nos quais a compreensão profunda do domínio é essencial para o sucesso do software. Ele visa melhorar a comunicação entre as partes envolvidas no desenvolvimento de software e criar modelos de domínio que se alinhem mais estreitamente com os requisitos e as expectativas dos usuários finais.

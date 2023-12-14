@@ -1,0 +1,12 @@
+Uma arquitetura monolítica é um estilo de arquitetura de software em que um aplicativo é desenvolvido como uma única unidade, geralmente como um único código-base. Em um sistema monolítico, todos os componentes do aplicativo estão interligados e interagem diretamente entre si. Este é o oposto de arquiteturas distribuídas, onde diferentes partes do sistema são separadas e podem se comunicar por meio de interfaces.
+
+
+Vantagens : 
+-A organização fica concentrada em um unico sistema e muitos desenvolvedores estão familiarizados com esse modelo sendo que o desenvilvimento inicial é mais rapido 
+-Simples de fazer o deploy para o servidor
+-Exige uma equipe menor para desenvolver e manter a aplicação
+
+Desvantagens:
+-Manutenção, a aplicação se torna cada vez maior de acordo com o seu tamanho, o codigo será cada vez mais dificil de entender e o desafio de fazer alterações rápidas e ter que subir para o servidor só cresce
+-Alterações, para cada alteração feita, é necessario realizar um novo deploy de toda a aplicação;
+-Fragilidade, uma linha de código que subiu errada pode quebrar todo a sistema a ele ficar totalmente inoperante 
