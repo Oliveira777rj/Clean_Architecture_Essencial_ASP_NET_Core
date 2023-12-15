@@ -23,3 +23,24 @@ Definindo o projeto - Escopo geral
 - Ferramenta para aplicar o Migrations: EntityFrameworkCore.Tools.
 - Desacoplar a camada de acesso a dados do ORM: Padrão Repository.
 
+---- Nomeclaturas ----
+
+- Usar a Nomeclatura recomendada pela Microsoft para nomear classes, métodos, parãmetros, e variaveis.
+
+camelCase: Em palavras compostas ou frases, a primeira letra da palavra é iniciada com minuscula e unidas sem espaços
+Ex. valorDoDesconto, nomeCompleto.
+
+PascalCase: Em palavras compostas ou frases montadas com palavras, a primeira letra de cada palavra é iniciada com maiuscula
+Ex. CalculaImpostodeRenda() , ValorDoDesconto.
+
+Exemplos:
+
+Recurso                            Nomeclatura                    Exemplo
+
+Classe                             PascalCase                     Product, AddCategory
+interface                          I + PascalCase                 IUser, ICalculateTotal
+Metodo, propriedades               PascalCase                     Address, FirstName
+Variaveis, Parametros              CamelCase                      stock, taxValue
+Constantes                         Maiusculas com sublinhado      DISCOUNT_VALUE
+
+- Idioma: Inglês.
