@@ -1,0 +1,25 @@
+Definindo o projeto - Escopo geral 
+
+---- Definição das regras de nogocio da Caterogia ----
+
+- Definir a funcionalidade para exibir as categorias.
+- Definir a funcionalidade para criar uma nova categoria.
+- Permitir alterar as propriedades de uma categoria existente (o Id da categoria não poderá ser alterado).
+- Definir a funcionalidade para excluir uma categoria existente pelo seu Id.
+- Definir o relacionamento entre categoria e produto (propriedade de navegação).
+- Não permitir a criação de uma categoria com estado inconsistente (criar um construtor parametrizado).
+- Não permitir que os atributos da categoria sejam alterados externamente (setter privados).
+- Não permitir que o atributo CategoryId tenha valor negativo.
+- Não permitir que o atributo Name seja Null ou Vazio(empty).
+- O atributo Name não poderá conter menos que 3 caracteres.
+- Definir a validação das regras de negocio para o domínio Categoria.
+
+---- Persistência dos dados usada no projeto ----
+
+- Usar banco de dados relacional.
+- Usar a ferramenta de ORM: Entity Framework.
+- Usar a abordagem Code-First do Entity Framework Core para criar o banco de dados e as tabelas.
+- Provedor do banco de dados: Microsoft.EntityFrameworkCore.SqlServer.
+- Ferramenta para aplicar o Migrations: EntityFrameworkCore.Tools.
+- Desacoplar a camada de acesso a dados do ORM: Padrão Repository.
+
