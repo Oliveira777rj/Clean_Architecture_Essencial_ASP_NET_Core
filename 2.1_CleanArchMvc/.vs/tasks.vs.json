@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-CleanArchMvc.Infra.Ioc",
+      "appliesTo": "CleanArchMvc.Infra.Ioc/CleanArchMvc.Infra.Ioc.csproj",
+      "type": "msbuild"
+    },
+    {
+      "taskLabel": "tarefa-CleanArchMvc.Domain",
+      "appliesTo": "CleanArchMvc.Domain.Tests/",
+      "type": "launch"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+A camada de Dominio é responsavel por representar conceitos do negocio, informações sobre a situação do negocio e regras de negocio
+O estado que reflete a situação do negocio é controlado e usado aqui.
+
+Difinindo o escopo do projeto Domain
+
+ - Entities: Contem classes Category e Product que representam o modelo de dominio.
+ - Interfaces: Contém as interfaces ICategoryRepository e IProductRepository.
+ - Validation: Contém a classe DomainExceptionValidation para validar o modelo de dominio.
